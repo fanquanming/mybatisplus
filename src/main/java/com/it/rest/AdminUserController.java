@@ -31,6 +31,15 @@ public class AdminUserController {
     @GetMapping(value = "/mybatisplus")
     public void mybatisPlus(){
         userService.test();
+        System.out.println("我改了东西，并且我还要切换分支你怎么说");
     }
+
+    @PostMapping(value = "/mybatisplus")
+    public void mybatisPlusDev01(){
+        userService.test();
+
+    }
+
+
 }
 
