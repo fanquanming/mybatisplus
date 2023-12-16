@@ -39,12 +39,6 @@ public class AdminUserController {
         userService.test();
 
     }
-    @PostMapping(value = "/")
-    public void commitButNoPush(){
-        userService.test();
-
-    }
-
 
 
 }
