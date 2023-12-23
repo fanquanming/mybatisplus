@@ -37,7 +37,7 @@ public class AdminUserController {
     @PostMapping(value = "/mybatisplus")
     public void mybatisPlusDev01(){
         userService.test();
-        System.out.println("bbb");
+        System.out.println("bbb1");
     }
 
 
